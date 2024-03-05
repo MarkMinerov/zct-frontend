@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+  align-items: center;
+  justify-content: center;
+
+  b {
+    font-weight: bold;
+  }
+
+  img {
+    width: 500px;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,27 @@
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  .form-container {
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+
+    form {
+      display: flex;
+      gap: 12px;
+      flex-direction: column;
+      margin-top: 12px;
+      width: 100%;
+
+      .submit-button {
+        width: 100%;
+        margin-top: 18px;
+      }
+    }
+  }
+}
